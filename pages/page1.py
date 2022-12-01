@@ -3,7 +3,7 @@ import dash
 from dash import callback,Input, Output, State, dcc, html
 
 
-dash.register_page(__name__)
+dash.register_page(__name__, path='/')
 
 
 
